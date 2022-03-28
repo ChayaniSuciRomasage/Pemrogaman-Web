@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+   
+}
+
+p{
+    font-family: Cambria;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20%;
+}
+
+h2{
+    font-family: Cambria;
+    font-size: 50px;
+    text-align: center;
+}
