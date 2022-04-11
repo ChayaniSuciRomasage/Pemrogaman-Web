@@ -1,0 +1,154 @@
+@font-face {
+  font-family: qbold;
+  src:url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+  font-family: qlight;
+  src: url(font/Quicksand_Light.otf);
+}
+.navbar-expand-sm {
+  overflow: hidden;
+  background-color: #191970;
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+}
+.navbar a {
+  font-family: qbold;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background:  #ffc002;
+  color: black;
+}
+.cover{
+ background-image: url(img/bromo.jpg);
+  background-size: cover; 
+}
+.welcome{
+  /*background-image: url(img/bromo.jpg);*/
+  /*background-size: cover;*/
+  display:flex;
+  flex-direction:column;
+  height:690px;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  margin-left: -10px;
+}
+.welcome h1{
+  color: white;
+  font-size: 60px;
+  font-family: qbold;
+}
+.welcome p{
+  color: white;
+  margin-bottom: 70px;
+  font-size: 30px;
+  margin-top: -20px;
+  font-family: qbold;
+}
+#btn{
+  font-family: qbold;
+  background-color: #ffa500;
+  border: white;
+  border-radius: 50px;
+  padding: 20px 60px;
+  color: black; 
+  font-size: 20px;
+  margin-top: 30px;
+  margin-top: 20px;
+  color: black;
+}
+
+#garis{
+  height: 5px;
+  width: 500px;
+  background-color: #191970;
+  border:#191970;
+}
+
+.pembuka h1{
+  font-family: qbold;
+  margin-top: 20px;
+  font-size: 32px;
+}
+.pembuka h3{
+  font-family: qlight;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  margin-left: -40px;
+}
+.card2 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.card3 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+.card-img-top{
+  border-radius:
+  border-radius: 20px 20px 0px 0px; 
+  height: 170px;
+}
+.card-body h4 {
+  margin: 0;  
+  font-family: qbold;
+
+}
+
+.card-body p {
+  margin: 0;  
+  font-family: qlight;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #191970;
+
+}
+
+#rating img{
+  margin-top: 10px;
+}
+#love {
+  margin-left: 90px;
+}
+
+.footer{
+  background-color:#696969;
+  height: 60px;
+  margin-left: -10px;
+  color: white;
+  padding-top: 10px;
+  
+}
